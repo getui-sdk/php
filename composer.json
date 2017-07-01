@@ -1,0 +1,21 @@
+{
+    "name": "getui-sdk/php",
+    "type": "library",
+    "description": "GeTuiSDK for php",
+    "keywords": ["getui", "sdk"],
+    "homepage": "http://www.getui.com/",
+    "license": "MIT",
+    "authors": [{
+        "name": "Jamie",
+        "email": "wk1025@126.com",
+        "homepage": "http://www.getui.com"
+    }],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "GetuiSDK\\": "src/"
+        }
+    }
+}
