@@ -17,8 +17,8 @@ Class IGeTui
     var $format = "json"; //默认为 json 格式
     var $host = '';
     var $needDetails = false;
-    static $appkeyUrlList = array();
     var $domainUrlList =  array();
+    static $appkeyUrlList = array();
    
     public function __construct($domainUrl, $appkey, $masterSecret)
     {
